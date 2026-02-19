@@ -48,4 +48,3 @@ streamlit run app.py
 
 ## 👩‍💻 Author
 Ayushi Gupta – Python & AI Developer
-⭐ If you like this project, feel free to star it!
