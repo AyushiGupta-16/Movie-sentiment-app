@@ -1,40 +1,51 @@
-🎬 Movie Review Sentiment Analyzer
+# 🎬 Movie Review Sentiment Analyzer
 
-An interactive NLP-based Streamlit web app that predicts the sentiment of movie reviews as positive or negative using a Naive Bayes classifier.
+An interactive NLP-based **Streamlit web app** that predicts whether a movie review is **Positive** or **Negative** using a **Multinomial Naive Bayes** model.
 
-# Features
-- Built using Natural Language Processing
-- Text preprocessing: tokenization, stopword removal, punctuation cleaning
-- Real-time sentiment prediction with a clean UI
-- Uses Scikit-learn's Multinomial Naive Bayes
-- Streamlit-based deployment
-
-# Tech Stack
-- Python
-- Streamlit
-- NLTK
-- Scikit-learn
-
-# Dataset
-Uses NLTK's built-in movie_reviews dataset — no manual download needed.
-
-# Files
-app.py — main Streamlit application
-
-requirements.txt — list of dependencies
-
-README.md — project overview
-
-
-Created by AYUSHI GUPTA
+![App Screenshot](Screenshot.png)
 
 ---
 
-⭐ If you like this project, feel free to star it and share it!
+## ✨ Features
+• Built using Natural Language Processing  
+• Text preprocessing: tokenization, stopword removal, punctuation cleaning  
+• Real-time sentiment prediction with a clean UI  
+• Uses Scikit-learn Multinomial Naive Bayes  
+• Streamlit-based web interface  
 
+---
 
+## 🧠 Tech Stack
+- Python  
+- Streamlit  
+- NLTK  
+- Scikit-learn  
 
+---
 
+## 📊 Dataset
+Uses NLTK’s built-in **movie_reviews** dataset (automatically downloaded).
 
+---
 
+## 📁 Project Structure
+```
+app.py → Streamlit application
+requirements.txt → Dependencies
+Screenshot.png → App preview
+README.md → Documentation
+```
 
+---
+
+## ▶️ How to Run
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+---
+
+## 👩‍💻 Author
+Ayushi Gupta – Python & AI Developer
+⭐ If you like this project, feel free to star it!
